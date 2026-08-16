@@ -1,0 +1,22 @@
+[general]
+name=Click & Color
+qgisMinimumVersion=3.40
+qgisMaximumVersion=3.99
+description=Change the color of a category by clicking directly on vector features (points, lines, polygons) on the map.
+version=1.0.1
+author=Paolo Brunello
+email=brunellop67@gmail.com
+about=Click & Color lets you change the color of a category on a layer with a "Categorized" renderer simply by clicking on a feature on the map: the color picker opens and the map, legend and style panel update automatically. Handy for anyone working with categorized symbology who wants to adjust colors without opening the layer properties every time.
+tracker=https://github.com/brunellop/click-and-color/issues
+repository=https://github.com/brunellop/click-and-color
+homepage=http://webstorymap.it/
+
+tags=color,click,category,categorized,symbology,style,renderer
+
+category=Vector
+icon=icon.png
+
+experimental=False
+deprecated=False
+
+changelog=1.0.1 - First version published on the official QGIS repository.
