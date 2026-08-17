@@ -1,33 +1,32 @@
 # Click & Color
 
-Plugin per QGIS che permette di cambiare il colore di una categoria
-cliccando direttamente su un elemento vettoriale nella mappa.
+QGIS plugin that allows you to change the color of a category by clicking directly on a vector feature in the map.
 
-## Come funziona
+## How it works
 
-1. Seleziona nel Pannello Layer un layer vettoriale con renderer
-   **Categorizzato**.
-2. Attiva lo strumento dalla toolbar o dal menu **Plugin > Click & Color**.
-3. Clicca su un elemento (punto, linea o poligono) nella mappa: si apre
-   il selettore colore con il colore attuale della categoria.
-4. Scegli il nuovo colore: mappa, legenda e pannello stile si aggiornano
-   subito.
+Select a vector layer with a **Categorized** renderer in the **Layers Panel**.
 
-## Requisiti
+Activate the tool from the toolbar or from **Plugins > Click & Color**.
+
+Click on a feature (point, line, or polygon) in the map: the color selector opens showing the current color of the category.
+
+Choose the new color: the map, legend, and style panel are updated immediately.
+
+## Requirements
 
 - QGIS >= 3.0
-- Il layer deve avere un renderer "Categorizzato" (Categorized).
+- The layer must use a **Categorized** renderer.
 
-## Installazione
+## Installation
 
-Da **Estensioni > Gestisci e installa estensioni**, cerca "Click & Color"
-oppure installa manualmente scaricando lo zip da questo repository e
-usando **Installa da ZIP**.
+From **Plugins > Manage and Install Plugins**, search for **Click & Color**.
 
-## Autore
+Alternatively, install it manually by downloading the ZIP file from this repository and using **Install from ZIP**.
 
-Paolo — [WebStoryMap](https://www.youtube.com/@WebStoryMap)
+## Author
 
-## Licenza
+Paolo — WebStoryMap
 
-GPL v2 o successiva. Vedi [LICENSE](LICENSE).
+## License
+
+GPL v2 or later. See [LICENSE](LICENSE).
